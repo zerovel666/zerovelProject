@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+body{
+    margin: 0;
+    background: rgb(82, 82, 82);
+    font-family: "Playwrite AU SA", cursive;
+    color: snow;
+    letter-spacing: 2px;
+}
+.btn-circle{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    top: 20px;
+    font-family: "Playwrite AU SA", cursive;
+    left: 20px;
+}
+hgroup{
+    width: auto;
+    height: 100px;
+    background-color: #3c3c3c ;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 0 10px snow;
+}
+h1{
+    margin: 0;
+    font-size: 40px;
+}
+.container{
+    margin: 100px;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: 0 0 10px snow;
+}
+.text{
+    width: auto;
+    height: auto;
+    margin: 50px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    font-family: "Playwrite AU SA", cursive;
+}
+.edit-delete{
+    margin: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px ;
+    background-color: #3c3c3c;
+    color: snow;
+    font-family: "Playwrite AU SA", cursive;
+}
